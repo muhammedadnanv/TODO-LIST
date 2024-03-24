@@ -1,0 +1,157 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+body {
+    background: #031016;
+    color: #8eabb3;
+    margin: 0;
+    padding: 0;
+}
+
+a, a:hover, a:visited {
+    color: #60fffa;
+}
+
+a:hover {
+    text-shadow: 0 0 8px rgba(96, 255, 250, .8), 0 0 3px rgba(96, 255, 250, .8);
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, #031016, #8c8b8b, #031016);
+}
+
+#container {
+    width: 420px;
+    padding: 10px;
+    margin: 20px auto;
+    background: #080d13;
+    border: #14417c 1px solid;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 1px rgba(20, 65, 124, 0.8);
+}
+
+.wrapper {
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 3em;
+    font-family: 'Amaranth', sans-serif;
+}
+
+h2 {
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+    text-shadow: 0 0 10px #00aace, 0 0 6px #00aace;
+}
+
+input {
+    width: 70%;
+    padding: 10px;
+    margin-right: 10px;
+    background: #080d13;
+    color: #60fffa;
+    border: 1px solid #60fffa;
+}
+
+button {
+    width: 20%;
+    padding: 10px;
+    background-color: #60fffa;
+    color: #005baf;
+    border: 1px solid #005baf;
+    font-weight: bold;
+    box-shadow: 0 0 3px #60fffa, inset 0 0 10px #fff, inset 0 0 4px #fff, inset 0 0 0 #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    box-shadow: 0 0 3px #60fffa, 0 0 3px #60fffa, inset 0 0 15px #fff, inset 0 0 8px #fff, inset 0 0 20px #fff;
+    color: #005baf;
+}
+
+.section {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.footer {
+    text-align: center;
+    padding: 10px;
+    color: #8eabb3;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    text-align: center;
+}
+
+.task {
+    cursor: pointer;
+    padding: 10px;
+    margin: 10px 0;
+    color: #60fffa;
+    border: 2px solid #60fffa;
+    border-radius: 10px;
+    text-align: center;
+    transition: text-shadow .2s, box-shadow .2s;
+}
+
+.task:hover {
+    text-shadow: 0 0 10px #00aace, 0 0 6px #00aace;
+    box-shadow: 0 0 2px 1px #00aace;
+}
+
+.complete {
+    opacity: 0.5;
+    text-decoration: line-through;
+}
+
+.clock {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 150px; /* Adjusted width */
+    height: 150px; /* Adjusted height */
+    border-radius: 50%;
+    border: 2px solid #60fffa;
+}
+
+.clock div {
+    position: absolute;
+    background-color: #60fffa;
+}
+
+#hour {
+    width: 4px;
+    height: 30px; /* Adjusted height */
+    top: 50%;
+    left: 50%;
+    transform-origin: 50% 100%;
+}
+
+#minute {
+    width: 2px;
+    height: 50px; /* Adjusted height */
+    top: 50%;
+    left: 50%;
+    transform-origin: 50% 100%;
+}
+
+#second {
+    width: 1px;
+    height: 60px; /* Adjusted height */
+    top: 50%;
+    left: 50%;
+    transform-origin: 50% 100%;
+}
