@@ -1,0 +1,22 @@
+{
+  "name": "To-Do List",
+  "short_name": "To-Do",
+  "description": "A simple to-do list application",
+  "icons": [
+    {
+      "src": "https://i.ibb.co/yq5fHzZ/Screenshot-2024-03-24-181905.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "https://i.ibb.co/yq5fHzZ/Screenshot-2024-03-24-181905.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#031016",
+  "theme_color": "#8eabb3",
+  "orientation": "portrait"
+}
